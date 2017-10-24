@@ -1,0 +1,10 @@
+<div>This shows the status of the eventbus connection. To trigger a reconnect either restart the server or use a
+	mobile phone and lock your screen.</div>
+<h2>{{main.state}}</h2>
+<p>
+<button type="button" ng-click="main.doRegister()">Register</button>
+<button type="button" ng-click="main.doUnregister()">Unregister</button>
+	<button type="button" ng-click="main.doSendToServer()">Send msg to server</button>
+</p>
+<textarea ng-model="main.output" cols="50" rows="200">
+</textarea>
